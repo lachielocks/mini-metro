@@ -569,11 +569,21 @@ const App: React.FC = () => {
             
             {/* Content overlay */}
             <div className="relative z-10 flex flex-col items-center">
-            <h1 className="text-7xl font-black tracking-tighter text-slate-800 mb-2">Mini Metro JS</h1>
+            <h1 className="text-7xl font-black tracking-tighter text-slate-800 mb-2">Mini Metro</h1>
             <p className="text-slate-500 mb-2 font-medium text-center max-w-md">
-              A web-based re-implementation of the beloved puzzle strategy game
+              Officially unofficial remake version
             </p>
-            <p className="text-slate-400 mb-8 text-sm italic">Inspired by Dinosaur Polo Club's Mini Metro</p>
+            <p className="text-slate-400 mb-8 text-sm">
+              by{' '}
+              <a
+                href="https://lachiethurlow.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-slate-600 transition-colors"
+              >
+                Lachie Thurlow
+              </a>
+            </p>
             
             {/* Difficulty Presets */}
             <div className="mb-6">

@@ -1,9 +1,9 @@
 <div align="center">
 <img width="1376" height="768" alt="Mini Metro" src="https://github.com/user-attachments/assets/f1f73052-d096-4e3d-96e0-ad34408a93b4" />
 
-# 🚇 Mini Metro in JS!
+# 🚇 Mini Metro
 
-**A fan-made tribute and minimalist subway strategy game inspired by the original Mini Metro.**
+**Officially unofficial remake version — a minimalist subway strategy game for the browser.**
 
 [![React](https://img.shields.io/badge/React-19.2.3-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.2-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -17,38 +17,38 @@
   <a href="#installation">Installation</a> •
   <a href="#roadmap">Roadmap</a>
 </p>
-</div>
-<div align="center">
-<a href ="https://kaos599.github.io/mini-metro-js/"> Try it Now
+
+<a href="https://lachiethurlow.com">Play at lachiethurlow.com</a>
+
 </div>
   
 ---
 
 ## 📖 About
 
-**Metro Mini** is a faithful re-implementation of the critically acclaimed minimalist subway strategy game, **Mini Metro**. Built from scratch using **TypeScript**, **React 19**, and **HTML5 Canvas**, this project brings the addictive transit-building experience to your browser with high-performance 60fps pathfinding and rendering.
+**Mini Metro** is a browser remake of the minimalist subway strategy game. Built with **TypeScript**, **React 19**, and **HTML5 Canvas**, it delivers 60fps pathfinding and rendering as you design efficient networks for a growing city.
 
-The goal is to recreate the elegant simplicity of the original game designing efficient subway networks for a rapidly growing city. As stations pop up, you must redraw your lines, manage locomotives, and deploy resources like tunnels and carriages to keep the city moving.
+By [Lachie Thurlow](https://lachiethurlow.com).
 
 ## Features
 <img width="1514" height="888" alt="image" src="https://github.com/user-attachments/assets/813e0898-791d-41fb-ac0e-24905a2ba677" />
 
-### Authentic Mini Metro Experience
-- **Draw-to-Connect Gameplay**: Intuitively create and modify metro lines just like in the original game.
+### Core gameplay
+- **Draw-to-Connect Gameplay**: Intuitively create and modify metro lines.
 - **Procedural City Growth**: Dynamic station spawning ensures every session presents a new logistical challenge.
 - **Shape-Based Routing**: Passengers find their own way through your network based on their destination shape.
-- **Weekly Upgrades**: Survive the week to choose between vital assets new lines, locomotives, carriages, or tunnels.
+- **Weekly Upgrades**: Survive the week to choose between vital assets — new lines, locomotives, carriages, or tunnels.
 
 ### Game Modes
 | Mode | Description |
 | :--- | :--- |
-| **Normal** | The classic Mini Metro experience. Balance efficiency and overcrowding. |
+| **Normal** | The classic experience. Balance efficiency and overcrowding. |
 | **Extreme** | Once a line is placed, it's permanent. True strategic planning. |
 | **Endless** | A zen-like sandbox mode. Build your dream network without the risk of game over. |
 
 ### Technical Highlights
 - **60FPS Canvas Engine**: Optimized rendering loop for smooth train movement and UI interactions.
-- **React 19 & TypeScript**: A modern codebase showcasing how to build complex simulations in a web environment.
+- **React 19 & TypeScript**: A modern codebase for complex simulations on the web.
 - **Touch-First Design**: Fully responsive and playable on mobile devices with intuitive touch controls.
 
 ## How to Play
@@ -61,14 +61,14 @@ The goal is to recreate the elegant simplicity of the original game designing ef
 
 ## Installation
 
-Run this Mini Metro re-implementation locally:
+Run locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/metro-mini.git
+git clone https://github.com/lachielocks/mini-metro.git
 
 # Navigate to the project directory
-cd metro-mini
+cd mini-metro
 
 # Install dependencies
 npm install
@@ -83,7 +83,7 @@ Open `http://localhost:3000` in your browser to start building.
 
 - [ ] **City Presets**: Play on maps inspired by real-world cities like London and Paris.
 - [ ] **Advanced Upgrades**: Interchange stations and multi-track support.
-- [ ] **Soundscape**: Minimalist ambient audio to match the original game's atmosphere.
+- [ ] **Soundscape**: Minimalist ambient audio.
 
 ## License
 
@@ -93,8 +93,6 @@ Distributed under the Apache 2.0 License. See `LICENSE` for more information.
 
 <div align="center">
 
-*Disclaimer: This is a non-commercial fan project and a technical re-implementation. All credits for the original game concept and design go to Dinosaur Polo Club.*
-
-Made with ❤️ and TypeScript
+Made by [Lachie Thurlow](https://lachiethurlow.com)
 
 </div>
